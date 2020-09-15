@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Solve a Maze!</title>
+    </head>
+
+    <body>
+        <style type="text/css">
+            body {
+                overflow: hidden;
+            }
+
+        </style>
+        <canvas id="myCanvas" width="1200" height="800"></canvas>
+        <p> Maze Solver!</p>
+        <p> Create your own mazes</p>
+        <button onclick="solveMaze()">Solve</button>
+        <button onclick="reset()">Reset</button>
+        <p id="outcome"></p>
+        <p> Yellow Colour: Grid Block Searched </p>
+        <p> Black Colour: Shortest Path Found </p>
+        <script src="maze.js"></script>
+    </body>
+</html>
